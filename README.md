@@ -36,11 +36,11 @@ Historically, Hollywood blockbusters derive approximately **40%** of their total
 Data was acquired via the **TMDb (The Movie Database) API** using a custom time-chunking scraper (`01_Data_Acquisition_Feature_Engineering.ipynb`) to bypass the 10,000-item API limit. The dataset spans releases from January 2000 to December 2025.
 
 
-| **Data Set Characteristics:** | Multivariate, Time-Series | **Number of Instances:** | 20,400 |
+| **Data Set Characteristics:** | Multivariate, Time-Series | **Number of Instances:** | 5,649 |
 | :--- | :--- | :--- | :--- |
-| **Attribute Characteristics:** | Real, Integer, Categorical | **Number of Attributes:** | 14 |
+| **Attribute Characteristics:** | Real, Integer, Categorical | **Number of Attributes:** | 17 |
 | **Associated Tasks:** | Regression, Causal Inference | **Missing Values?** | Yes (Imputed) |
-| **Area:** | Business / Arts | **Date Donated:** | December 2025 |
+| **Area:** | Film Industry | **Date Created:** | December 2025 |
 
 
 ### **3. Final Dataset Overview**
