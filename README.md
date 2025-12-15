@@ -95,4 +95,4 @@ The project chose **Weighted XGBoost** with Cost-Sensitive Learning (`sample_wei
 ## Relevant Papers & Citations
 1.  Sharma, A. S., Roy, T., Rifat, S. A., & Mridul, M. A. (2021). Presenting a larger up-to-date movie dataset and investigating the effects of pre-released attributes on gross revenue. Journal of Computer Science, 17(10), 870–888. https://doi.org/10.3844/jcssp.2021.870.888.
 2.  Kim, J.-M., Xia, L., Kim, I., Lee, S., & Lee, K.-H. (2020). Finding Nemo: Predicting movie performances by machine learning methods. Journal of Risk and Financial Management, 13(5), 93. https://doi.org/10.3390/jrfm13050093
-3.  Sharma, A. S., Roy, T., Rifat, S. A., & Mridul, M. A. (2021). Presenting a larger up-to-date movie dataset and investigating the effects of pre-released attributes on gross revenue. Journal of Computer Science, 17(10), 870–888. https://doi.org/10.3844/jcssp.2021.870.888
+3.  Chao, Q., Kim, E., & Li, B. (2023). Movie Box Office Prediction With Self-Supervised and Visually Grounded Pretraining. Nanyang Technological University; Alibaba Group. https://github.com/jdsannchao/MOVIE-BOX-OFFICE-PREDICTION
