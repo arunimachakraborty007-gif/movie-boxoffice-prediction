@@ -30,6 +30,8 @@ This project leverages Machine Learning (XGBoost) to predict the Domestic Openin
 ### **1. Data Source & Acquisition**
 Due to the strict anti-scraping policies of Box Office Mojo and the lack of a public API for granular weekly data, the project utilized a Statistical Proxy Approach. It extracted verified Global Revenue figures from TMDb and applied a standard decay ratio (Derived from average blockbuster performance: 45% Domestic Share × 35% First Week Drop) to synthesize the target variable for training.
 
+Historically, Hollywood blockbusters derive approximately **40%** of their total revenue from the Domestic (US/Canada) market and 60% form International markets. For wide-release films, the **Opening Week** (First 7 Days) typically accounts for **35%** of the total lifetime domestic gross due to marketing hype and front-loaded demand [Source: "Box Office Decay Curves", Industry Analysis].
+
 ### **2. Dataset Information**
 Data was acquired via the **TMDb (The Movie Database) API** using a custom time-chunking scraper (`01_Data_Acquisition_Feature_Engineering.ipynb`) to bypass the 10,000-item API limit. The dataset spans releases from January 2000 to December 2025.
 
